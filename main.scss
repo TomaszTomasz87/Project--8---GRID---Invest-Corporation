@@ -31,6 +31,10 @@ h1.company-name {
 	max-width: 1200px;
 	width: 100%;
 }
+h1.company-name {
+	font-size: 6rem;
+}
+
 // header
 .header {
 	display: grid;
@@ -83,7 +87,7 @@ h1.company-name {
 		z-index: -5;
 	}
 
-	&__bo-icon-one {
+	&__bg-icon-one{
 		bottom: 2em;
 		right: -3em;
 		width: 50%;
@@ -92,6 +96,7 @@ h1.company-name {
 
 	&__bg-icon-two {
 		display: none;
+		
 	}
 }
 .hamburger {
